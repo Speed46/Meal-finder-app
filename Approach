@@ -1,0 +1,69 @@
+problem statement : Create a meal app to store and search meals. Use ONLY vanilla javascript, no libraries or 
+frameworks allowed for Javascript (you can use any css framework like Bootstrap).
+
+
+
+Approach and Steps for Creating a Meal App using Vanilla JavaScript:
+
+1. Design the User Interface:
+   - Use HTML and CSS (Bootstrap framework) to create a visually appealing layout for the app.
+   - Create input fields, buttons, and containers to display meals and search results.
+
+2. Set up the Data Structure:
+   - Define a data structure to store meal information.
+   - Each meal could have properties like name, ingredients, instructions, and an image URL.
+   - Consider using an array or object to hold multiple meal objects.
+
+3. Populate the Meal Data:
+   - Add sample meal data to the app.
+   - Create a function to load and display meals on the app's interface.
+   - Display meals with their names and images.
+
+4. Implement Search Functionality:
+   - Create an input field for users to enter search queries.
+   - Implement a search function to filter meals based on the entered query.
+   - Match the query against meal names or ingredients and display the matching results.
+
+5. Display Meal Details:
+   - Add event listeners to meal cards or buttons to trigger the display of meal details.
+   - Design a separate section to show the selected meal's name, image, ingredients, and instructions.
+   - Use JavaScript to update the displayed meal details based on user interaction.
+
+6. Add Create and Store Functionality:
+   - Allow users to add new meals to the app.
+   - Create an input form to gather meal information such as name, ingredients, and instructions.
+   - Store the newly created meal in the data structure and update the app's interface accordingly.
+
+7. Implement Edit and Delete Functionality:
+   - Enable users to edit and delete existing meals.
+   - Add buttons or icons for editing and deleting meals.
+   - Implement functions to modify or remove meals from the data structure and update the app's interface.
+
+8. Ensure Data Persistence:
+   - Store the meal data in the browser's local storage to maintain the data between app sessions.
+   - Load the stored data when the app initializes and save any changes made by the user.
+
+9. Polish the User Experience:
+   - Test the app thoroughly to identify and fix any bugs or issues.
+   - Add error handling and validation to ensure data integrity.
+   - Optimize the app's performance by refactoring and optimizing code where necessary.
+
+10. Deploy and Share the App:
+    - Host the app on a server or deploy it using platforms like GitHub Pages or Netlify.
+    - Share the app with others and gather feedback for further improvements.
+
+Remember to enjoy the process and have fun while building your meal app using Vanilla JavaScript! 🍽️😊
+
+
+
+# Meal-Finder
+Meal Finder web app using HTML, CSS &amp; Vanilla JavaScript
+
+
+APIs Site: https://www.themealdb.com/api.php
+
+Description                    | API
+-------------------------------| --------------------------------------------------------------
+Search meal by name            | https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata
+Lookup full meal details by id | https://www.themealdb.com/api/json/v1/1/lookup.php?i=52772
+Lookup a single random meal    | https://www.themealdb.com/api/json/v1/1/random.php
